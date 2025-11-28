@@ -108,7 +108,7 @@ export async function registerMember(req) {
 
 // Generate unique member code
 function generateMemberCode() {
-  const prefix = "MEB";
+  const prefix = "SFU";
   const randomNumber = Math.floor(100000 + Math.random() * 900000);
   return `${prefix}-${randomNumber}`;
 }
